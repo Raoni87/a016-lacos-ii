@@ -5,3 +5,8 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+for(let i = 0; i < array.length; i++) {
+      console.log(`O número de gols do jogador ${i + 1} ao longo das 5 temporadas foi ${array[i]}`)
+}
+
